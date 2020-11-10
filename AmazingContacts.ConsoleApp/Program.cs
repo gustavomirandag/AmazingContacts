@@ -68,7 +68,6 @@ namespace AmazingContacts.ConsoleApp
             Console.WriteLine("######### All Contact #########");
             for(var i = 0 ; i < Contacts.Count; i++)
             {
-                
                 Console.WriteLine("Name : "+ Contacts[i].Name);
                 Console.WriteLine("Phone : " + Contacts[i].Phone);
                 Console.WriteLine("E-mail : " + Contacts[i].Email);
